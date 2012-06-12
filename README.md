@@ -20,10 +20,16 @@ Add environement variables to heroku:
 - heroku config:add GMAIL_SMTP_USER=username@gmail.com
 - heroku config:add GMAIL_SMTP_PASSWORD=yourpassword
 
-## Deploy
+## Run
+
+### On localhost
+
+'ruby -rubygems application.rb'
+
+### On heroku
 
 1. Clone this repository
-2. Go to the repository folder, 'heroku create'
+2. Go to the repository folder, 'heroku create' (check heroku.com dev center for details)
 3. Configure environment variables as described above
 4. Push to heroku : 'git push heroku master'
 
