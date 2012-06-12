@@ -1,4 +1,4 @@
-# sinatra-mail
+# sinatra-heroku-mail
 
 Sinatra app sample on how to send emails using gmail SMTP server. Nothing complicated, just aggregated several information into one place...
 
